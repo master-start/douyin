@@ -3,7 +3,7 @@
 ## Install
 
 ```
-composer require kangdev/meituan-dispatch -vvv
+composer require kangdev/douyin -vvv
 ```
 
 # Usage
