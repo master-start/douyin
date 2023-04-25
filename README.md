@@ -15,8 +15,8 @@ $config = [
     'secret' => 'your-secret',
     'debug' => true,
     'log' => [
-        'name' => 'meituan',
-        'file' => __DIR__ . '/meituan.log',
+        'name' => 'douyin',
+        'file' => __DIR__ . '/douyin.log',
         'level' => 'debug',
         'permission' => 0777,
     ],
