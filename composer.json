@@ -1,0 +1,31 @@
+{
+    "name": "kangdev/meituan-dispatch",
+    "description": "抖音小程序SDK封装",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "master",
+            "email": "php-dev@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "hanson/foundation-sdk": "^5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "KangDev\\MeituanDispatch\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "KangDev\\MeituanDispatch\\Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.5"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+
+}
