@@ -1,6 +1,6 @@
 {
     "name": "kangdev/meituan-dispatch",
-    "description": "抖音小程序SDK封装",
+    "description": "抖音小程序OpenApi - SDK封装",
     "license": "MIT",
     "authors": [
         {

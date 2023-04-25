@@ -31,7 +31,7 @@ $dispatch->token([
 
 //code2Session
 $code = '';
-$dispatch->queryStatus([
+$dispatch->jscode2session([
     'code'  => $code
 ]);
 
