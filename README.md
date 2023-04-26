@@ -22,7 +22,7 @@ $config = [
     ],
 ];
 
-$dispatch = new \KangDev\MeituanDispatch\Dispatch($config);
+$dispatch = new \KangDev\DouyinDispatch\Dispatch($config);
 
 // getAccessToken
 $dispatch->token([

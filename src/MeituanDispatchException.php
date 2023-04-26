@@ -1,10 +1,10 @@
 <?php
 
 
-namespace KangDev\MeituanDispatch;
+namespace KangDev\DouyinDispatch;
 
 
-class MeituanDispatchException extends \Exception
+class DouyinDispatchException extends \Exception
 {
 
 }

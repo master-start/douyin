@@ -1,14 +1,14 @@
 <?php
 
 
-namespace KangDev\MeituanDispatch;
+namespace KangDev\DouyinDispatch;
 
 
 use Hanson\Foundation\Foundation;
 
 /**
  * Class Dispatch
- * @package KangDev\MeituanDispatch
+ * @package KangDev\DouyinDispatch
  *
  * @method array token($params)
  * @method array jscode2session($params)

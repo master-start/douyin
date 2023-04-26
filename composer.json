@@ -14,12 +14,12 @@
     },
     "autoload": {
         "psr-4": {
-            "KangDev\\MeituanDispatch\\": "src/"
+            "KangDev\\DouyinDispatch\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "KangDev\\MeituanDispatch\\Tests\\": "tests/"
+            "KangDev\\DouyinDispatch\\Tests\\": "tests/"
         }
     },
     "require-dev": {

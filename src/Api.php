@@ -1,7 +1,7 @@
 <?php
 
 
-namespace KangDev\MeituanDispatch;
+namespace KangDev\DouyinDispatch;
 
 
 use Hanson\Foundation\AbstractAPI;
@@ -31,7 +31,7 @@ class Api extends AbstractAPI
      * @param string $method
      * @param array $params
      * @return mixed
-     * @throws MeituanDispatchException
+     * @throws DouyinDispatchException
      */
     public function request(string $method, array $params,string $type = "post")
     {

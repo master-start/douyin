@@ -1,7 +1,7 @@
 <?php
 
 
-namespace KangDev\MeituanDispatch;
+namespace KangDev\DouyinDispatch;
 
 
 class v2 extends Api
@@ -12,7 +12,7 @@ class v2 extends Api
      *
      * @param array $params
      * @return mixed
-     * @throws MeituanDispatchException
+     * @throws DouyinDispatchException
      */
     public function token(array $params)
     {
@@ -24,7 +24,7 @@ class v2 extends Api
      *
      * @param array $params
      * @return mixed
-     * @throws MeituanDispatchException
+     * @throws DouyinDispatchException
      */
     public function jscode2session(array $params)
     {
@@ -36,7 +36,7 @@ class v2 extends Api
      *
      * @param array $params
      * @return mixed
-     * @throws MeituanDispatchException
+     * @throws DouyinDispatchException
      */
     public function set_user_storage(array $params)
     {
@@ -48,7 +48,7 @@ class v2 extends Api
      *
      * @param array $params
      * @return mixed
-     * @throws MeituanDispatchException
+     * @throws DouyinDispatchException
      */
     public function remove_user_storage(array $params)
     {
@@ -60,7 +60,7 @@ class v2 extends Api
      *
      * @param array $params
      * @return mixed
-     * @throws MeituanDispatchException
+     * @throws DouyinDispatchException
      */
     public function generate(array $params)
     {
@@ -72,7 +72,7 @@ class v2 extends Api
      *
      * @param array $params
      * @return mixed
-     * @throws MeituanDispatchException
+     * @throws DouyinDispatchException
      */
     public function query_info(array $params)
     {
@@ -84,7 +84,7 @@ class v2 extends Api
      *
      * @param array $params
      * @return mixed
-     * @throws MeituanDispatchException
+     * @throws DouyinDispatchException
      */
     public function query_quota(array $params)
     {
@@ -96,7 +96,7 @@ class v2 extends Api
      *
      * @param array $params
      * @return mixed
-     * @throws MeituanDispatchException
+     * @throws DouyinDispatchException
      */
     public function customer_service_url(array $params)
     {
@@ -108,7 +108,7 @@ class v2 extends Api
      *
      * @param array $params
      * @return mixed
-     * @throws MeituanDispatchException
+     * @throws DouyinDispatchException
      */
     public function qrcode(array $params)
     {
@@ -120,7 +120,7 @@ class v2 extends Api
      *
      * @param array $params
      * @return mixed
-     * @throws MeituanDispatchException
+     * @throws DouyinDispatchException
      */
     public function antidirt(array $params)
     {
@@ -132,7 +132,7 @@ class v2 extends Api
      *
      * @param array $params
      * @return mixed
-     * @throws MeituanDispatchException
+     * @throws DouyinDispatchException
      */
     public function image(array $params)
     {
@@ -144,7 +144,7 @@ class v2 extends Api
      *
      * @param array $params
      * @return mixed
-     * @throws MeituanDispatchException
+     * @throws DouyinDispatchException
      */
     public function image2(array $params)
     {
