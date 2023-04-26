@@ -16,7 +16,7 @@ class v2 extends Api
      */
     public function token(array $params)
     {
-        return $this->request('apps/v2/token', $params);
+        return $this->request('apps/v2/token', $params,'json');
     }
 
     /**
@@ -28,7 +28,7 @@ class v2 extends Api
      */
     public function jscode2session(array $params)
     {
-        return $this->request('apps/v2/jscode2session', $params);
+        return $this->request('apps/v2/jscode2session', $params,'json');
     }
 
     /**
@@ -40,7 +40,7 @@ class v2 extends Api
      */
     public function set_user_storage(array $params)
     {
-        return $this->request('apps/set_user_storage', $params);
+        return $this->request('apps/set_user_storage', $params,'json');
     }
 
     /**
@@ -52,7 +52,7 @@ class v2 extends Api
      */
     public function remove_user_storage(array $params)
     {
-        return $this->request('apps/remove_user_storage', $params);
+        return $this->request('apps/remove_user_storage', $params,'json');
     }
 
     /**
@@ -64,7 +64,7 @@ class v2 extends Api
      */
     public function generate(array $params)
     {
-        return $this->request('apps/url_link/generate', $params);
+        return $this->request('apps/url_link/generate', $params,'json');
     }
 
     /**
@@ -76,7 +76,7 @@ class v2 extends Api
      */
     public function query_info(array $params)
     {
-        return $this->request('apps/url_link/query_info', $params);
+        return $this->request('apps/url_link/query_info', $params,'json');
     }
 
     /**
@@ -88,7 +88,7 @@ class v2 extends Api
      */
     public function query_quota(array $params)
     {
-        return $this->request('apps/url_link/query_quota', $params);
+        return $this->request('apps/url_link/query_quota', $params,'json');
     }
 
     /**
@@ -100,7 +100,7 @@ class v2 extends Api
      */
     public function customer_service_url(array $params)
     {
-        return $this->request('apps/chat/customer_service_url', $params);
+        return $this->request('apps/chat/customer_service_url', $params,'json');
     }
 
     /**
@@ -112,7 +112,7 @@ class v2 extends Api
      */
     public function qrcode(array $params)
     {
-        return $this->request('apps/qrcode', $params);
+        return $this->request('apps/qrcode', $params,'json');
     }
 
     /**
@@ -124,7 +124,7 @@ class v2 extends Api
      */
     public function antidirt(array $params)
     {
-        return $this->request('v2/tags/text/antidirt', $params);
+        return $this->request('v2/tags/text/antidirt', $params,'json');
     }
 
     /**
@@ -136,7 +136,7 @@ class v2 extends Api
      */
     public function image(array $params)
     {
-        return $this->request('v2/tags/image/', $params);
+        return $this->request('v2/tags/image/', $params,'json');
     }
 
     /**
@@ -148,7 +148,7 @@ class v2 extends Api
      */
     public function image2(array $params)
     {
-        return $this->request('apps/censor/image', $params);
+        return $this->request('apps/censor/image', $params,'json');
     }
 
 

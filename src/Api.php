@@ -58,19 +58,7 @@ class Api extends AbstractAPI
 
         $result = json_decode(strval($response->getBody()), true);
 
-        $this->checkErrorAndThrow($result);
-
         return $result;
     }
 
-    /**
-     * @param $result
-     * @throws MeituanDispatchException
-     */
-    private function checkErrorAndThrow($result)
-    {
-        if (!$result || $result['err_no'] != 0) {
-            throw new MeituanDispatchException($result['err_tips'], $result['err_no']);
-        }
-    }
 }
