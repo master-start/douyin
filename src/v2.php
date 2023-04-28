@@ -104,6 +104,7 @@ class v2 extends Api
     }
 
     /**
+     * 获取小程序/小游戏的二维码
      * qrcode
      *
      * @param array $params
@@ -116,6 +117,7 @@ class v2 extends Api
     }
 
     /**
+     * 内容安全检测
      * antidirt
      *
      * @param array $params
@@ -128,6 +130,7 @@ class v2 extends Api
     }
 
     /**
+     * 图片检测
      * image
      *
      * @param array $params
@@ -140,6 +143,7 @@ class v2 extends Api
     }
 
     /**
+     * 图片检测V2
      * imageV2
      *
      * @param array $params
